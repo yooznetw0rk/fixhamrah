@@ -21,7 +21,7 @@ btnElem.addEventListener('click', () => {
             let tempObj = { ...cfgObj };
             tempObj.add = adds.ip;
             tempObj.alpn = "http/1.1"
-            tempObj.fp = "android"
+            tempObj.fp = "firefox"
             fixedCfg.push(tempObj);
             tempObj = '';
         });
