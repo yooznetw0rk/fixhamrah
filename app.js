@@ -4,7 +4,8 @@ const btnElem = document.querySelector('#getCfg');
 let addreses = [
     { ip: 'mci.nazsuk.ga' },
     { ip: 'mci2.nazsuk.ga' },
-    { ip: 'mci3.nazsuk.ga' }
+    { ip: 'mci3.nazsuk.ga' },
+    { ip: 'mci4.nazsuk.ga' }
 ]
 
 let fixedCfg = [];
