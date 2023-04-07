@@ -20,6 +20,8 @@ btnElem.addEventListener('click', () => {
         addreses.forEach(adds => {
             let tempObj = { ...cfgObj };
             tempObj.add = adds.ip;
+            tempObj.alpn = "http/1.1"
+            tempObj.fp = "android"
             fixedCfg.push(tempObj);
             tempObj = '';
         });
